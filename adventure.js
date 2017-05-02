@@ -15,13 +15,13 @@ var superHero = prompt("If you could be one of the following Superheroes who wou
       if(ironMan_1 == "tony stark") {
         var ironMan_2 = prompt("Respect that. Would you choose his cars or his women?").toLowerCase() }
               if(ironMan_2 == "cars") {
-                  console.log("Zoom Zoom");
+                  alert("Zoom Zoom");
                   alert("How fast you get from 0-60?");
                   for (var i = 0; i < 60; i++) {
                     alert(i);
                   }
               } else if (ironMan_2 == "women") {
-                  console.log("Niceee");
+                  alert("Niceee");
               }
        else if (ironMan_1 == "the mech suit") {
          var ironMan_3 = prompt("The world is in trouble, what would you choose to do? (Save Penny, Save the World, or Die trying to do both").toLowerCase()
