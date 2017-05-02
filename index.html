@@ -4,8 +4,22 @@
     <meta charset="utf-8">
     <title>The SuperHero Adventure Game</title>
     <script src="adventure.js" charset="utf-8"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
   </head>
   <body>
+  <h1>Play the SuperHero Adventure Game.</h1>
+  <h3>Click the Play Button Below</h3>
+  <div>
+    <input id="btn" type="button" value="button" />
+</div>
+<script>
+    $('#btn').click(function(){
+      superHeroGame();
+    });
 
+</script>
   </body>
 </html>

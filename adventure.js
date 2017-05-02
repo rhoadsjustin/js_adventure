@@ -1,3 +1,5 @@
+function superHeroGame() {
+
 var fullName = prompt("What is your name?");
 alert("Great to meet you, " + fullName + " Let's ask some serious questions.");
 
@@ -118,6 +120,6 @@ var superHero = prompt("If you could be one of the following Superheroes who wou
            alert("Wow you are a disgrace to superheroes. He has one star on his sheild. Please see yourself out.");
          }
   }
-
+}
 
   // alert("That was so much fun. Let's play again! #Adventure");
