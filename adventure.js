@@ -39,7 +39,7 @@ var superHero = prompt("If you could be one of the following Superheroes who wou
         var superMan_1 = prompt("Which of his superpowers made you pick him? (Xray Vision, Flight, or Lasers)").toLowerCase()
        if(superMan_1 == "xray vision") {
        alert("Not a bad choice. Use this power wisely, but I can see through your choice that you should play again.");
-       } else if (superMan_1 == "flight") {
+    } else if (superMan_1 == "flight") {
          var superMan_2 = prompt("Where would you fly first? into space or around the earth to turn back time? (respond with space or time)").toLowerCase()
          if(superMan_2 == "space") {
            alert("That's a great choice. Don't get lost in space.");
@@ -56,11 +56,11 @@ var superHero = prompt("If you could be one of the following Superheroes who wou
          } else {
            alert("wow please read the instructions and try again, Lex Luthor.");
          }
-       } else if (superMan_1 == "Lasers") {
-         var superMan_3 = prompt("With great lasers comes great potential danger for the world. What would you do first with your 'lasers'? Melt the polar ice cap or start a forrest fire? (Melt or Fire)").toLowerCase(); {
-           if (superMan_3 == "Melt") {
-             alert("Wow, you would choose to endanger the whole world and make Al Gore's look correct. Are you Man Bear Pig? You lose the game. Try again.");
-           } else if (superMan_3 == "Fire") {
+    } else if (superMan_1 == "lasers") {
+           var superMan_3 = prompt("With great lasers comes great potential danger for the world. What would you do first with your 'lasers'? Melt the polar ice cap or start a forrest fire? (Melt or Fire)").toLowerCase(); {
+           if (superMan_3 == "melt") {
+             alert("Wow, you would choose to endanger the whole world and make Al Gore look correct. Are you Man Bear Pig? You lose the game. Try again.");
+           } else if (superMan_3 == "fire") {
              alert("Wow, just wow. You aren't a superhero anymore, you have become Smokey the Bear's greatest adversary. Prepare to lose that battle. Play again.");
            } else {
              alert("way to go superhero, you can't read properly!!");
