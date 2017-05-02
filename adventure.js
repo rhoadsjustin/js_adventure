@@ -95,14 +95,25 @@ var superHero = prompt("If you could be one of the following Superheroes who wou
        }
   } else if(superHero == "Captain America") {
          var cptAmerica_1 = prompt("Wow, you are so patriotic. How many stars are on your sheild?")
-         var starsNumber = parseInt(cptAmerica_1)
+         var starsNumber = parseInt(cptAmerica_1);
        if(starsNumber == 1) {
-           var cptAmerica_2 = prompt("Choosing one over the world? Interesting choice, must be love.")
-         } else if(ironMan_3 == "Save the World") {
-           console.log("Well technically Penny is apart of the world, so this is the right choice. Good job. You win.");
-         } else {
-           console.log("You didn't have to die, but you probably should've called the Avengers to help. Sorry " + fullName + ", it was nice knowing you.");
+           var cptAmerica_2 = prompt("You definitely are Captain America. Your mission is ready, do you accept? (Yes, No, or What's My Mission?)")
+            if (cptAmerica_2 == "Yes") {
+              alert("Awesome, glad you are so willing to save your country and the world.")
+              var cptAmerica_3 = prompt("Dr. Evil has stolen the Earth's cheese. Yes, all of the cheese. How would you stop him? (Turn it in to queso or Tell him your lactose intolerant.");
+              if(cptAmerica_3 == "Turn it in to queso") {
+                alert("You win at this game, you win at life. Queso is everything")
+              } else if (cptAmerica_3 == "Tell him your lactose intolerant") {
+                alert("Well that stinks. Because cheese is awesome.");
+              }
+            }else if (cptAmerica_2 == "No") {
+              alert("You are unwilling to serve your country. You are not Captain America, you might as well be Captain Failure.");
+            }else if (cptAmerica_2 == "What's My Mission?") {
+              alert("Don't ask questions, Captain. You are not a General. Do as your told. You lose.")
+            }
+        } else if(starsNumber != 1) {
+           alert("Wow you are a disgrace to superheroes. He has one star on his sheild. Please see yourself out.");
          }
-  }
+  } 
 
   // alert("That was so much fun. Let's play again! #Adventure");
