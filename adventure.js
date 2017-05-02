@@ -4,12 +4,8 @@ var fullName = prompt("What is your name?");
 alert("Great to meet you, " + fullName + " Let's ask some serious questions.");
 
 var superHero = prompt("If you could be one of the following Superheroes who would you choose? IronMan, Superman, Batman, and Captain America");
+superHero = superHero.toLowerCase();
 
-  // if(superHero == "IronMan" || "Superman" || "Batman" || "Captain America") {
-  //   alert("that's not a SuperHero available, try again")
-  //   }
-  // IronMan decision tree //
-  superHero = superHero.toLowerCase();
   if (superHero == "ironman") {
         var ironMan_1 = prompt("Is is it because of Tony Stark or the mech suit?").toLowerCase()
       if(ironMan_1 == "tony stark") {
